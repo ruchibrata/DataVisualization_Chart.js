@@ -1,0 +1,17 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+}
+
+wrapper {
+  text-align: center;
+}
+
+form {
+  margin: 50px auto;
+}
+
+#canvas {
+  margin: 50px auto;
+  background-color: #f0f8ff;
+}

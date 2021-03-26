@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming language Trends</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Programming Language Trends</h1>
+      <h4>(Source StackOverFlow)</h4>
+      <form>
+
+        <p>Top 5 Programming languages in 2020</p>
+          Choose the type of chart to visualize the Trend
+          <select id="select-chart-type" onchange="selectType()">
+            <option selected disabled>Chart Type</option>
+            <option value="bar" >bar-chart</option>
+            <option value="pie">pie-chart</option>
+            <option value="horizontalBar">horizontal-bars</option>
+            <option value="doughnut">doughnut-chart</option>
+          </select>
+        </p>
+      </form>
+      <div id="canvas">
+        <canvas id="chart" width="800" height="450"></canvas>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
