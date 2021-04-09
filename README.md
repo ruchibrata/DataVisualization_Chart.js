@@ -1,4 +1,4 @@
-# DataVisualization_Chart.js
-* _Project_ - Data visualization with Chart.js
-* _Objective_ - This project is to show the most popular programming language trend in 2020
-* _techstack_ - javascript, chart.js
+#    DataVisualization_Chart.js
+* _**Project**_ -   Data visualization with Chart.js
+* _**Objective**_ -   This project is to show the most popular programming language trend in 2020
+* _**techstack**_ -   javascript, chart.js
